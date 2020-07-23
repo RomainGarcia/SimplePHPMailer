@@ -7,7 +7,8 @@ Tool based on PHPMailer to simply send mails.
 ## Install
 
 ```bash
-git clone
+git clone https://github.com/RomainGarcia/SimplePHPMailer.git
+cd SimplePHPMailer
 composer install
 cp config.example.php config.php 
 ```

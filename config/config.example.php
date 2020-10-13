@@ -13,6 +13,8 @@ $config = [
     "recepientEmail" => "recept@domain.com",
     "recepientName" => "Recepient name",
     "contentInHTML" => true,
-    "bodyFile" => "./body.html",
+    "subject" => "Mail subject",
+    "bodyFile" => "../content/body.html",
+    "attachementFile" => "../content/join.txt",
     "altBody" => 'Alternative body for non-HTML mail clients'
 ];

@@ -10,10 +10,10 @@ Tool based on PHPMailer to simply send mails.
 git clone https://github.com/RomainGarcia/SimplePHPMailer.git
 cd SimplePHPMailer
 composer install
-cp config.example.php config.php 
+cp ./config/config.example.php ./config/config.php 
 ```
 
-Edit the `config.php` file and run the script in command line:
+Edit the `./config/config.php` file and run the script in command line:
 
 ```bash
 php SimpleMailer.php

@@ -35,11 +35,11 @@ class SimpleMailer
         
             //Recipients
             $mail->setFrom($this->m_Config["fromEmail"], $this->m_Config["fromName"]);
-            $mail->addAddress($this->m_Config["recepientEmail"], $this->m_Config["recepientName"]); 
+            $mail->addAddress($this->m_Config["recipientEmail"], $this->m_Config["recipientName"]);
         
             // Attachments
-            if (file_exists($this->m_Config["attachementFile"])) {
-                $mail->addAttachment($this->m_Config["attachementFile"]);         // Add attachments
+            if (file_exists($this->m_Config["attachmentFile"])) {
+                $mail->addAttachment($this->m_Config["attachmentFile"]);         // Add attachments
             }
         
             // Content

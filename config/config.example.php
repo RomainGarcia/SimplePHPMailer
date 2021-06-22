@@ -10,11 +10,11 @@ $config = [
     "tls"      => true,
     "fromEmail" => "mail@domain.com",
     "fromName"  => "Sender name",
-    "recepientEmail" => "recept@domain.com",
-    "recepientName" => "Recepient name",
+    "recipientEmail" => "recept@domain.com",
+    "recipientName" => "Recipient name",
     "contentInHTML" => true,
     "subject" => "Mail subject",
     "bodyFile" => "../content/body.html",
-    "attachementFile" => "../content/join.txt",
+    "attachmentFile" => "../content/join.txt",
     "altBody" => 'Alternative body for non-HTML mail clients'
 ];

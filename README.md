@@ -13,7 +13,7 @@ composer install
 cp ./config/config.example.php ./config/config.php 
 ```
 
-Edit the `./config/config.php` file and run the script in command line:
+Edit the `./config/config.php` file and the `./content/body.html` file and run the script in command line:
 
 ```bash
 php SimpleMailer.php
@@ -23,7 +23,7 @@ php SimpleMailer.php
 
 Author:	Romain Garcia
 
-Copyright 2020, Romain Garcia
+Copyright 2021, Romain Garcia
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
